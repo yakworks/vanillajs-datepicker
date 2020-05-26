@@ -69,7 +69,7 @@ function moveByArrowKey(datepicker, ev, direction, vertical) {
 
 export function onKeydown(datepicker, ev) {
   if (ev.key === 'Tab') {
-    datepicker.refresh('input');
+    // datepicker.refresh('input');
     datepicker.hide();
     return;
   }
