@@ -9,7 +9,8 @@ $dp-font-weight-semibold: $weight-semibold !default;
 $dp-font-weight-bold: $weight-bold !default;
 $dp-dropdown-offset: 4px !default;
 $dp-dropdown-shadow: 0 2px 3px rgba($black, 0.1), 0 0 0 1px rgba($black, 0.1) !default;
-$dp-dropdown-z: 20 !default;
+// 31 z-index will be above navbar and footer
+$dp-dropdown-z: 31 !default;
 
 $dp-title-background-color: $background !default;
 
