@@ -8,6 +8,6 @@ export function onClickOutside(datepicker, ev) {
   if (findElementInEventPath(ev, el => el === element || el === pickerElem)) {
     return;
   }
-  datepicker.refresh('input');
+  // datepicker.refresh('input');
   datepicker.hide();
 }
